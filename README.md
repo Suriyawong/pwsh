@@ -3,8 +3,8 @@ PowerShell scripts, tools, and helpful commands.  This repo will contain several
 
 Take a look at the [UsefulCommands.ps1](https://github.com/Suriyawong/pwsh/blob/main/UsefulCommands.ps1) for some handy one-liners like:
 
+Capture the date in YYYY.MM.DD.HHmm format (I use this format to version my scripts):
 ```python
-# Capture the date in YYYY.MM.DD.HHmm format (I use this format to version my scripts)
 Get-Date -UFormat "%Y.%m.%d.%H%M"
 ```
 
